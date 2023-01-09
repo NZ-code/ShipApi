@@ -1,10 +1,11 @@
 # REST API
 
 ## Description
- Spring Boot MVC web application that convert price from USD to PLN based on
- the NPB API(http://api.nbp.pl) for a given day, save it to an XML file and a database,
- and then display the data from the saved database in
- the appropriate format. 
+ ShipAndCrew api provide a set of RESTful endpoints for 
+ CRUD operations.
+ The Project is divided into 3 separate projects 
+ (two stand-alone applications and  Spring Cloud Gateway).
+ Business classes connected with 1:N relationship. 
 
 ## Get list of ships
 
